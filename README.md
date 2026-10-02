@@ -2,7 +2,7 @@
 
 **Qualifie la préparation d’un local au raccordement fibre à partir d’éléments sourcés.**
 
-[![Tests](https://github.com/gbesse/jev-fibre-readiness/actions/workflows/test.yml/badge.svg)](https://github.com/gbesse/jev-fibre-readiness/actions/workflows/test.yml) [MIT](LICENSE) · Node.js 22+ · v0.1.1 · Documentation française
+[![Tests](https://github.com/gbesse/jev-fibre-readiness/actions/workflows/test.yml/badge.svg)](https://github.com/gbesse/jev-fibre-readiness/actions/workflows/test.yml) [MIT](LICENSE) · Node.js 22+ · v0.1.2 · Documentation française
 
 Jev Fibre Readiness transforme un dossier de raccordement sourcé en une catégorie explicite et révisable. Le dépôt sépare les règles vérifiables en code de la comparaison sémantique confiée à Jev.
 
@@ -16,6 +16,8 @@ npm run demo
 ```
 
 Les trois démonstrations utilisent uniquement des données et probabilités synthétiques. Elles n’effectuent aucun appel réseau et ne mesurent pas la qualité réelle de Jev.
+
+Pour partager les trois résultats dans un seul rapport JSON, lancez `npm run demo:parcours`. Le rapport compare le dossier principal, le cas déterministe et la revue humaine, avec la sortie de chaque démonstration et un échec explicite si l’une d’elles ne passe plus.
 
 ## Exemple exécutable
 
